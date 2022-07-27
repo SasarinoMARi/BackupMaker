@@ -1,6 +1,9 @@
 # BackupMaker
 mysql 서버 백업 -> 암호화 스크립트 및 복호화 스크립트
 
+
+mysqldump.exe가 path에 등록되어 있어야 합니다.
+
 .env 파일에 아래 내용 기입
 - DESTINATION_IP=[목적지 db서버 ip]
 - DESTINATION_PORT=[목적지 db서버 포트]
